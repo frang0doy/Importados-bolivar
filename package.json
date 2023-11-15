@@ -1,0 +1,19 @@
+{
+   "devDependencies": {
+      "tailwindcss": "^3.3.5"
+   },
+   "dependencies": {
+      "watch": "^1.0.2"
+   },
+   "name": "proyecto-final",
+   "version": "1.0.0",
+   "description": "Ecomerce",
+   "main": "src/index.html",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "build-css": "tailwind build -i src/style.css -o public/style.css --watch",
+      "watch": "watch \"npm run build-css\""
+   },
+   "author": "Francisco Godoy",
+   "license": "ISC"
+}
