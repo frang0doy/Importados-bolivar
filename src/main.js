@@ -56,3 +56,22 @@ productos.forEach((producto) => {
    // Agrega la tarjeta de producto al <section> de productos
    productosSection.appendChild(productoCard);
 });
+// Verificar el ancho de la ventana al cargar o redimensionar
+window.addEventListener("resize", function () {
+   toggleDropdown();
+});
+
+function toggleDropdown() {
+   const selectElement = document.getElementById("HeadlineAct");
+   const windowWidth = window.innerWidth;
+
+   if (windowWidth <= 768) {
+      // Cambia el valor 768 según tus necesidades de diseño responsivo
+      selectElement.classList.remove("opacity-0");
+   } else {
+      selectElement.classList.add("opacity-0");
+   }
+}
+
+// Llamar a toggleDropdown al cargar la página
+toggleDropdown();

@@ -7,20 +7,22 @@
       <title>Importados Bolivar</title>
       <link rel="stylesheet" href="../public/style.css" />
       <link href="/dist/output.css" rel="stylesheet" />
-
+      <script src="https://kit.fontawesome.com/8e6fe50818.js" crossorigin="anonymous"></script>
       <link
          rel="stylesheet"
          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
       />
       <link rel="stylesheet" href="poppins.woff" />
    </head>
-   <body class="pattern ">
+    <body class=" 
+    bg-gradient-to-r from-yellow-200 via-yellow-400 to-yellow-700">
+      
       <header class="bg-white">
          <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
             <div class="flex h-16 items-center justify-between">
                <div class="md:flex md:items-center md:gap-12">
                   <a class="block text-teal-600" href="index.html">
-                     <span class="sr-only">Home</span>
+                     <span class="sr-only">Inicio</span>
                     <img src="/img/logo.png" alt="Tu Logo" class="h-16">
                 
 
@@ -33,61 +35,65 @@
                       <div class="flex items-center">
   <input
     type="text"
-    class="bg-gray-100 rounded-md px-3 py-2 text-gray-600 focus:outline-none"
-    placeholder="Buscar..."
+    class="bg-gray-100 rounded-l-md px-3 py-2 text-gray-600 focus:outline-none flex-1"
+    placeholder=""
   >
   <button
-     class="block w-full rounded bg-black px-12 py-3 text-sm font-medium text-white shadow hover:bg-rose-700 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
-  >
-    Buscar
+    class="bg-gray-100 px-8 py-2 text-sm font-medium focus:outline-none focus:ring"
+  ><i class="fa-solid fa-magnifying-glass" style="color: #000000; font-size: 30px; vertical-align: middle;"></i>
+   
   </button>
 </div>
 
-                       <li>
-                           <a
-                              class="text-gray-500 transition hover:text-gray-500/75"
-                              href="Hombre.html"
-                           >
-                              Hombre
-                           </a>
-                        </li>
+<div class="relative">
+  <label for="HeadlineAct" class="block text-sm font-medium text-gray-900">
+    Hombre
+  </label>
 
-                        <li>
-                           <a
-                              class="text-gray-500 transition hover:text-gray-500/75"
-                              href="Hombre.html"
-                           >
-                              Nuevo
-                           </a>
-                        </li>
+  <select
+    name="HeadlineAct"
+    id="HeadlineAct"
+    class="absolute inset-0 opacity-0 w-full h-full rounded-lg border-gray-300 text-gray-700 sm:text-sm"
+  >
+    <option value="SRV">Lanzamientos</option>
+    <option value="">Ofertas</option>
+    <option value="SRV">Zapatillas</option>
+    <option value="SRV">Buzos</option>
+    <option value="SRV">Remeras</option>
+    <option value="SRV">Todos los productos</option>
+  </select>
+</div>
 
-                        <li>
-                           <a
-                              class="text-gray-500 transition hover:text-gray-500/75"
-                              href="/"
-                           >
-                              Nosotros
-                           </a>
-                        </li>
+
+
+
+
+                       <ul class="flex gap-4">
+  <li>
+    <a
+      class="text-black transition hover:text-gray-500/75"
+      href="informacion.html"
+    >
+      Nosotros
+    </a>
+  </li>
+</ul>
+
                      </ul>
                   </nav>
                </div>
 
                <div class="flex items-center gap-4">
                   <div class="sm:flex sm:gap-4">
-                      <a
-          href="Usuario.html"
-          class="block w-full rounded bg-black px-12 py-3 text-sm font-medium text-white shadow hover:bg-rose-700 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
-        >
-          Mi usuario
-        </a>
+        <a href="Usuario.html" class="block w-full rounded-full bg-white px-12 py-4 text-sm font-medium text-black hover:bg-gray-200 focus:outline-none focus:ring active:bg-gray-400 sm:w-auto text-center">
+  <i class="fa-solid fa-user" style="color: #000000; font-size: 24px; vertical-align: middle;"></i>
+</a>
 
-                      <a
-          href="Carrito.html"
-          class="block w-full rounded bg-black px-12 py-3 text-sm font-medium text-white shadow hover:bg-rose-700 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
-        >
-          Carrito
-        </a>
+<a href="Carrito.html" class="block w-full rounded-full bg-white px-10 py-4 text-sm font-medium text-black hover:bg-gray-200 focus:outline-none focus:ring active:bg-gray-400 sm:w-auto text-center">
+  <i class="fa-solid fa-cart-shopping" style="color: #000000; font-size: 24px; vertical-align: middle;"></i>
+</a>
+
+
                      </div>
                   </div>
 

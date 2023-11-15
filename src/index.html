@@ -54,17 +54,17 @@
     name="HeadlineAct"
     id="HeadlineAct"
     class="absolute inset-0 opacity-0 w-full h-full rounded-lg border-gray-300 text-gray-700 sm:text-sm"
+    onchange="redirectToPage(this)"
   >
-    <option value="SRV">Lanzamientos</option>
-    <option value="">Ofertas</option>
-     <option value="SRV">Zapatillas</option>
-      <option value="SRV">Buzos</option>
-       <option value="SRV">Remeras</option>
-    <option value="SRV">Todos los productos</option>
-
-    
+    <option value="lanzamientos.html">Lanzamientos</option>
+    <option value="ofertas.html">Ofertas</option>
+    <option value="zapatillas.html">Zapatillas</option>
+    <option value="buzos.html">Buzos</option>
+    <option value="remeras.html">Remeras</option>
+    <option value="hombre.html">Todos los productos</option>
   </select>
 </div>
+
 
 
 
@@ -651,6 +651,14 @@
             productosSection.appendChild(productoCard);
          });
       </script>
+      <script>
+  function redirectToPage(selectElement) {
+    const selectedValue = selectElement.value;
+    if (selectedValue) {
+      window.location.href = selectedValue;
+    }
+  }
+</script>
      
    </body>
 </html>
