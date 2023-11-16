@@ -1,28 +1,203 @@
 const productos = [
    {
-      nombre: "Producto 1",
-      imagen: "producto1.jpg",
-      descripcion: "Descripción del Producto 1.",
+      id: "pantalon-05",
+      titulo: "Pantalón 05",
+      imagen: "./img/pantalones/05.jpg",
+      categoria: {
+         nombre: "Pantalones",
+         id: "pantalones",
+      },
+      precio: 1000,
    },
    {
-      nombre: "Producto 2",
-      imagen: "producto2.jpg",
-      descripcion: "Descripción del Producto 2.",
+      id: "pantalon-05",
+      titulo: "Pantalón 05",
+      imagen: "./img/pantalones/05.jpg",
+      categoria: {
+         nombre: "Pantalones",
+         id: "pantalones",
+      },
+      precio: 1000,
    },
    {
-      nombre: "Producto 3",
-      imagen: "producto3.jpg",
-      descripcion: "Descripción del Producto 3.",
+      id: "pantalon-05",
+      titulo: "Pantalón 05",
+      imagen: "./img/pantalones/05.jpg",
+      categoria: {
+         nombre: "Pantalones",
+         id: "pantalones",
+      },
+      precio: 1000,
    },
    {
-      nombre: "Producto 4",
-      imagen: "producto4.jpg",
-      descripcion: "Descripción del Producto 4.",
+      id: "pantalon-05",
+      titulo: "Pantalón 05",
+      imagen: "./img/pantalones/05.jpg",
+      categoria: {
+         nombre: "Pantalones",
+         id: "pantalones",
+      },
+      precio: 1000,
    },
    {
-      nombre: "Producto 5",
-      imagen: "producto5.jpg",
-      descripcion: "Descripción del Producto 5.",
+      id: "pantalon-05",
+      titulo: "Pantalón 05",
+      imagen: "./img/pantalones/05.jpg",
+      categoria: {
+         nombre: "Pantalones",
+         id: "pantalones",
+      },
+      precio: 1000,
+   },
+   {
+      id: "pantalon-05",
+      titulo: "Pantalón 05",
+      imagen: "./img/pantalones/05.jpg",
+      categoria: {
+         nombre: "Pantalones",
+         id: "pantalones",
+      },
+      precio: 1000,
+   },
+   {
+      id: "pantalon-05",
+      titulo: "Pantalón 05",
+      imagen: "./img/pantalones/05.jpg",
+      categoria: {
+         nombre: "Pantalones",
+         id: "pantalones",
+      },
+      precio: 1000,
+   },
+   {
+      id: "pantalon-05",
+      titulo: "Pantalón 05",
+      imagen: "./img/pantalones/05.jpg",
+      categoria: {
+         nombre: "Pantalones",
+         id: "pantalones",
+      },
+      precio: 1000,
+   },
+   {
+      id: "pantalon-05",
+      titulo: "Pantalón 05",
+      imagen: "./img/pantalones/05.jpg",
+      categoria: {
+         nombre: "Pantalones",
+         id: "pantalones",
+      },
+      precio: 1000,
+   },
+   {
+      id: "pantalon-05",
+      titulo: "Pantalón 05",
+      imagen: "./img/pantalones/05.jpg",
+      categoria: {
+         nombre: "Pantalones",
+         id: "pantalones",
+      },
+      precio: 1000,
+   },
+   {
+      id: "pantalon-05",
+      titulo: "Pantalón 05",
+      imagen: "./img/pantalones/05.jpg",
+      categoria: {
+         nombre: "Pantalones",
+         id: "pantalones",
+      },
+      precio: 1000,
+   },
+   {
+      id: "pantalon-05",
+      titulo: "Pantalón 05",
+      imagen: "./img/pantalones/05.jpg",
+      categoria: {
+         nombre: "Pantalones",
+         id: "pantalones",
+      },
+      precio: 1000,
+   },
+   {
+      id: "pantalon-05",
+      titulo: "Pantalón 05",
+      imagen: "./img/pantalones/05.jpg",
+      categoria: {
+         nombre: "Pantalones",
+         id: "pantalones",
+      },
+      precio: 1000,
+   },
+   {
+      id: "pantalon-05",
+      titulo: "Pantalón 05",
+      imagen: "./img/pantalones/05.jpg",
+      categoria: {
+         nombre: "Pantalones",
+         id: "pantalones",
+      },
+      precio: 1000,
+   },
+   {
+      id: "pantalon-05",
+      titulo: "Pantalón 05",
+      imagen: "./img/pantalones/05.jpg",
+      categoria: {
+         nombre: "Pantalones",
+         id: "pantalones",
+      },
+      precio: 1000,
+   },
+   {
+      id: "pantalon-05",
+      titulo: "Pantalón 05",
+      imagen: "./img/pantalones/05.jpg",
+      categoria: {
+         nombre: "Pantalones",
+         id: "pantalones",
+      },
+      precio: 1000,
+   },
+   {
+      id: "pantalon-05",
+      titulo: "Pantalón 05",
+      imagen: "./img/pantalones/05.jpg",
+      categoria: {
+         nombre: "Pantalones",
+         id: "pantalones",
+      },
+      precio: 1000,
+   },
+   {
+      id: "pantalon-05",
+      titulo: "Pantalón 05",
+      imagen: "./img/pantalones/05.jpg",
+      categoria: {
+         nombre: "Pantalones",
+         id: "pantalones",
+      },
+      precio: 1000,
+   },
+   {
+      id: "pantalon-05",
+      titulo: "Pantalón 05",
+      imagen: "./img/pantalones/05.jpg",
+      categoria: {
+         nombre: "Pantalones",
+         id: "pantalones",
+      },
+      precio: 1000,
+   },
+   {
+      id: "pantalon-05",
+      titulo: "Pantalón 05",
+      imagen: "./img/pantalones/05.jpg",
+      categoria: {
+         nombre: "Pantalones",
+         id: "pantalones",
+      },
+      precio: 1000,
    },
 ];
 
