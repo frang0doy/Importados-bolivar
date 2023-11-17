@@ -122,10 +122,7 @@
             </div>
          </div>
       </header>
-
-     <main>
       
-     </main>
 <footer class="bg-gray-600">
   <div
     class="mx-auto max-w-screen-xl space-y-8 px-4 py-16 sm:px-6 lg:space-y-16 lg:px-8"
@@ -252,12 +249,10 @@
 </footer>
 
 
-      <script>
          const productos = [
             {
                nombre: "Buzo de Lana Gris",
-               imagen:
-                  "https://images.unsplash.com/photo-1564557287817-3785e38ec1f5?auto=format&fit=crop&q=80&w=1374&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+               imagen:"/img/vans 2.png",
                descripcion:
                   "Buzo de lana de alta calidad en color gris. Tallas disponibles: S, M, L.",
             },
@@ -275,60 +270,36 @@
                descripcion:
                   "Pantalones vaqueros de estilo clásico en color azul. Tallas disponibles: 28-36.",
             },
-            // {
-            //    nombre: "Campera de Cuero Negra",
-            //    imagen: "campera-negra.jpg",
-            //    descripcion:
-            //       "Campera de cuero genuino en color negro. Tallas disponibles: S, M, L, XL.",
-            // },
-            // {
-            //    nombre: "Remera a Rayas",
-            //    imagen: "remera-rayas.jpg",
-            //    descripcion:
-            //       "Remera a rayas en colores vibrantes. Disponible en todas las tallas.",
-            // },
-            // {
-            //    nombre: "Buzo con Capucha Rojo",
-            //    imagen: "buzo-rojo.jpg",
-            //    descripcion:
-            //       "Buzo cómodo con capucha en color rojo. Tallas disponibles: S, M, L.",
-            // },
-            // {
-            //    nombre: "Pantalones de Cuadros",
-            //    imagen: "pantalones-cuadros.jpg",
-            //    descripcion:
-            //       "Pantalones de cuadros elegantes. Tallas disponibles: 30-38.",
-            // },
-            // {
-            //    nombre: "Campera Ligera Azul",
-            //    imagen: "campera-azul.jpg",
-            //    descripcion:
-            //       "Campera ligera en color azul para entretiempo. Tallas disponibles: S, M, L.",
-            // },
-         ];
-
-         const productosSection = document.getElementById("productos-nuevos");
-
-         productos.forEach((producto) => {
-            const productoCard = document.createElement("article");
-            productoCard.classList.add("producto-card");
-
-            const imagen = document.createElement("img");
-            imagen.src = producto.imagen;
-            imagen.alt = producto.nombre;
-
-            const titulo = document.createElement("h3");
-            titulo.textContent = producto.nombre;
-
-            const descripcion = document.createElement("p");
-            descripcion.textContent = producto.descripcion;
-
-            productoCard.appendChild(imagen);
-            productoCard.appendChild(titulo);
-            productoCard.appendChild(descripcion);
-
-            productosSection.appendChild(productoCard);
-         });
-      </script>
+             {
+                nombre: "Campera de Cuero Negra",
+                imagen: "campera-negra.jpg",
+                descripcion:
+                   "Campera de cuero genuino en color negro. Tallas disponibles: S, M, L, XL.",
+             },
+             {
+                nombre: "Remera a Rayas",
+                imagen: "remera-rayas.jpg",
+                descripcion:
+                   "Remera a rayas en colores vibrantes. Disponible en todas las tallas.",
+             },
+             {
+                nombre: "Buzo con Capucha Rojo",
+                imagen: "buzo-rojo.jpg",
+                descripcion:
+                   "Buzo cómodo con capucha en color rojo. Tallas disponibles: S, M, L.",
+             },
+             {
+                nombre: "Pantalones de Cuadros",
+                imagen: "pantalones-cuadros.jpg",
+                descripcion:
+                   "Pantalones de cuadros elegantes. Tallas disponibles: 30-38.",
+             },
+             {
+              nombre: "Campera Ligera Azul",
+                imagen: "campera-azul.jpg",
+                descripcion:
+                   "Campera ligera en color azul para entretiempo. Tallas disponibles: S, M, L.",
+             },
+         
    </body>
 </html>
