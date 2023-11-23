@@ -35,7 +35,7 @@
                       <div class="flex items-center">
   <input
     type="text"
-    class="bg-gray-100 rounded-l-md px-3 py-2 text-gray-600 focus:outline-none flex-1"
+    class="bg-gray-100 rounded-l-md px-5 py-2 text-black focus:outline-none flex-1"
     placeholder=""
   >
   <button
@@ -43,13 +43,24 @@
   ><i class="fa-solid fa-magnifying-glass"></i>
    
   </button>
-</div>
-
-<div class="relative">
-  <label for="HeadlineAct" class="block text-sm font-medium text-black  hover:text-gray-500">
+<div class="relative flex items-center">
+  <label for="HeadlineAct" class="block text-sm font-medium text-black hover:text-gray-500">
     Hombre
   </label>
-
+  <svg
+    class="h-5 w-5 flex-0 transition duration-300 group-open:rotate-90 "
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    viewBox="0 0 24 24"
+    stroke="currentColor"
+  >
+    <path
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="2"
+      d="M19 9l-7 7-7-7"
+    />
+  </svg>
   <select
     name="HeadlineAct"
     id="HeadlineAct"
@@ -65,10 +76,11 @@
   </select>
 </div>
 
+    
                        <ul class="flex gap-4">
   <li>
     <a
-      class="text-black transition hover:text-gray-500/75"
+      class="text-black transition hover:text-gray-500/75 ml-4"
       href="informacion.html"
     >
       Nosotros
